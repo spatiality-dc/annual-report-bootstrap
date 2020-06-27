@@ -65,6 +65,7 @@ h1 {
   color: #fff;
   margin-right: 8em;
   margin-top: 2em;
+  text-align: left;
 }
 
 h2 {
@@ -81,6 +82,10 @@ h3 {
   color: #0a0a0a;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+h3:first-of-type {
+  line-height: 0em;
 }
 
 p {
@@ -120,16 +125,36 @@ li:not(:last-of-type) {
   padding-bottom: 24px;
 }
 
+.row-spacer {
+  height: 4em;
+}
+
+.sm-row-spacer {
+  height: 2em;
+}
+
+.xs-row-spacer {
+  height: 1em;
+}
+
 /* Class Things */
 
 /* Segments */
 
 .white-container {
   background-color: #fff;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
 }
 
 .grey-container {
   background-color: #f8f8f8;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
 }
 
 .intro {
@@ -137,8 +162,7 @@ li:not(:last-of-type) {
   font-size: 32px;
   line-height: 1.2em;
   color: #fff;
-  margin-right: 17em;
-  margin-top: 1em;
+  text-align: left;
 }
 
 .story-title {
@@ -147,6 +171,7 @@ li:not(:last-of-type) {
   line-height: 1.2em;
   color: #fc6228;
   text-transform: uppercase;
+  padding-bottom: 1em;
 }
 
 .cta {
@@ -154,6 +179,7 @@ li:not(:last-of-type) {
   font-size: 22px;
   line-height: 1.4em;
   color: #fc6228;
+  padding-bottom: 1em;
 }
 
 .stats {
@@ -161,6 +187,7 @@ li:not(:last-of-type) {
   font-size: 198px;
   line-height: 1.4em;
   color: #fc6228;
+  text-align: center;
 }
 
 .stat-captions {
@@ -168,6 +195,8 @@ li:not(:last-of-type) {
   font-size: 24px;
   line-height: 1.4em;
   color: #fc6228;
+  top: -3em;
+  text-align: left;
 }
 
 .responsive-youtube {
@@ -185,6 +214,10 @@ li:not(:last-of-type) {
   position: absolute;
 }
 
+.position-centre {
+  margin: auto;
+}
+
 /* Buttons */
 
 .large-button-white {
@@ -197,6 +230,7 @@ li:not(:last-of-type) {
   font-size: 14px;
   padding: 24px 76px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .large-button-white:hover {
   background-color: gray;
@@ -277,6 +311,7 @@ li:not(:last-of-type) {
   font-size: 14px;
   padding: 12px 76px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .cta-button:hover {
   background-color: gray;
