@@ -1,0 +1,334 @@
+/* Body Things */
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto Black", "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  background-image: url("img/climate-action.jpg");
+  background-size: cover;
+  height: 85vh;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #fc6228;
+  z-index: 1;
+  top: 0;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #fc6228;
+  color: #0a0a0a;
+}
+
+#navbar a.active {
+  background-color: #fc6228;
+  color: fff;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Font things */
+
+h1 {
+  font-family: "Roboto Black", "Roboto", sans-serif;
+  font-size: 76px;
+  line-height: 1.2em;
+  color: #fff;
+  margin-right: 8em;
+  margin-top: 2em;
+}
+
+h2 {
+  font-family: "Roboto Black", "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 1.4em;
+  color: #0a0a0a;
+}
+
+h3 {
+  font-family: "Roboto Medium", "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 1.4em;
+  color: #0a0a0a;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+p {
+  font-family: "Roboto", "Roboto Medium", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #0a0a0a;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+a {
+  font-family: "Roboto", "Roboto Medium", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #0a0a0a;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+li {
+  list-style-type: square;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+li:not(:last-of-type) {
+  padding-bottom: 24px;
+}
+
+/* Class Things */
+
+/* Segments */
+
+.white-container {
+  background-color: #fff;
+}
+
+.grey-container {
+  background-color: #f8f8f8;
+}
+
+.intro {
+  font-family: "Roboto Light", "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 1.2em;
+  color: #fff;
+  margin-right: 17em;
+  margin-top: 1em;
+}
+
+.story-title {
+  font-family: "Roboto Medium", "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.2em;
+  color: #fc6228;
+  text-transform: uppercase;
+}
+
+.cta {
+  font-family: "Roboto Light", "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 1.4em;
+  color: #fc6228;
+}
+
+.stats {
+  font-family: "Roboto Black", "Roboto", sans-serif;
+  font-size: 198px;
+  line-height: 1.4em;
+  color: #fc6228;
+}
+
+.stat-captions {
+  font-family: "Roboto Black", "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 1.4em;
+  color: #fc6228;
+}
+
+.responsive-youtube {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.responsive-youtube iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* Buttons */
+
+.large-button-white {
+  background-color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  cursor: pointer;
+  color: #0a0a0a;
+  font-family: "Roboto Medium", "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 24px 76px;
+  text-decoration: none;
+}
+.large-button-white:hover {
+  background-color: gray;
+  color: #fff;
+}
+.large-button-white:active {
+  position: relative;
+  top: 1px;
+}
+
+.large-button-black {
+  background-color: #0a0a0a;
+  border: 1px solid #0a0a0a;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto Medium", "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 24px 76px;
+  text-decoration: none;
+}
+.large-button-black:hover {
+  background-color: gray;
+  color: #0a0a0a;
+}
+.large-button-black:active {
+  position: relative;
+  top: 1px;
+}
+
+.regular-button-white {
+  background-color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  cursor: pointer;
+  color: #0a0a0a;
+  font-family: "Roboto Medium", "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 12px 76px;
+  text-decoration: none;
+}
+.regular-button-white:hover {
+  background-color: gray;
+  color: #fff;
+}
+.regular-button-white:active {
+  position: relative;
+  top: 1px;
+}
+
+.regular-button-black {
+  background-color: #0a0a0a;
+  border: 1px solid #0a0a0a;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto Medium", "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 12px 76px;
+  text-decoration: none;
+}
+.regular-button-black:hover {
+  background-color: gray;
+  color: #0a0a0a;
+}
+.regular-button-black:active {
+  position: relative;
+  top: 1px;
+}
+
+.cta-button {
+  background-color: #fc6228;
+  border: 1px solid #fc6228;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto Medium", "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 12px 76px;
+  text-decoration: none;
+}
+.cta-button:hover {
+  background-color: gray;
+  color: #fc6228;
+}
+.cta-button:active {
+  position: relative;
+  top: 1px;
+}
+
+.download-button {
+  position: absolute;
+  top: 0;
+  right: 18em;
+  font-size: 14px;
+  padding: 24px 76px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  cursor: pointer;
+  color: #0a0a0a;
+  font-family: "Roboto Medium", "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background-color: gray;
+  color: #0a0a0a;
+}
+.download-button:active {
+  top: 1px;
+}
+
+.menu-button {
+  position: absolute;
+  top: 0;
+  right: 5em;
+  font-size: 14px;
+  padding: 24px 76px;
+  background-color: #0a0a0a;
+  border: 1px solid #0a0a0a;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto Medium", "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.menu-button:hover {
+  background-color: gray;
+  color: #0a0a0a;
+}
+.menu-button:active {
+  top: 1px;
+}
