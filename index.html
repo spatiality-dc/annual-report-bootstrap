@@ -34,61 +34,93 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function openMenu() {
+        document.getElementById("sideMenu").style.width = "250px";
+      }
+
+      function closeMenu() {
+        document.getElementById("sideMenu").style.width = "0";
+      }
+    </script>
   </head>
   <body>
-    <div class="header">
-      <div class="row justify-content-end">
-        <ul class="nav">
-          <li>
-            <button class="btn-download regular-button-white">
-              <i class="fa fa-download"></i> Download Report
-            </button>
-          </li>
-          <li>
-            <button class="btn-menu regular-button-black">
-              <i class="fa fa-bars" aria-hidden="true"></i> Menu
-            </button>
-          </li>
-        </ul>
+    <div class="page-content">
+      <div id="sideMenu" class="menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()"
+          >&times;</a
+        >
+        <b><a href="#">Climate Actions and Net Zero Transmissions</a></b>
+        <b><a href="#">Health and Inclusive Communities</a></b>
+        <b><a href="#">Sustainable and Clean Water</a></b>
+        <b><a href="#">Systems Transitions</a></b>
+        <b><a href="#">Policy and Leadership</a></b>
+        <div class="sm-row-spacer"></div>
+        <a href="#">About Us</a>
+        <a href="#">Chair and Director Reports</a>
+        <a href="#">2019 Awards</a>
+        <a href="#">2019 Reports and Publications</a>
+        <a href="#">2019 Events</a>
+        <a href="#">Partners and Funders</a>
+        <a href="#">Our Team</a>
+        <a href="#">Contact Us</a>
       </div>
-      <!--End Button Container-->
-      <div class="row">
-        <div class="col-sm-0 col-md-0 col-lg-2"></div>
-        <div class="col-sm-12 col-md-12 col-lg-9">
-          <div class="row">
-            <h1>
-              Climate Action & Net Zero Transitions
-            </h1>
-          </div>
-          <div class="row">
-            <div class="intro">
-              Climate change and the economic transition required to solve it
-              will define the coming decade. Be part of the journey.
+      <div class="header">
+        <div class="row justify-content-end">
+          <ul class="nav">
+            <li>
+              <button class="btn-download regular-button-white">
+                <i class="fa fa-download"></i> Download Report
+              </button>
+            </li>
+            <li>
+              <span onclick="openMenu()">
+                <button class="btn-menu regular-button-black">
+                  <i class="fa fa-bars" aria-hidden="true"></i> Menu
+                </button>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <!--End Button Container-->
+        <div class="row">
+          <div class="col-sm-0 col-md-0 col-lg-2"></div>
+          <div class="col-sm-12 col-md-12 col-lg-9">
+            <div class="row">
+              <h1>
+                Climate Action & Net Zero Transitions
+              </h1>
+            </div>
+            <div class="row">
+              <div class="intro">
+                Climate change and the economic transition required to solve it
+                will define the coming decade. Be part of the journey.
+              </div>
+            </div>
+            <div class="sm-row-spacer"></div>
+            <div class="row">
+              <button class="large-button-white">
+                Call to Action
+              </button>
             </div>
           </div>
-          <div class="sm-row-spacer"></div>
-          <div class="row">
-            <button class="large-button-white">
-              Call to Action
-            </button>
-          </div>
+          <!--End Column-->
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <!--End Column-->
         </div>
-        <!--End Column-->
-        <div class="col-sm-0 col-md-0 col-lg-1"></div>
-        <!--End Column-->
+        <!-- End row-->
       </div>
-      <!-- End row-->
-    </div>
-    <!--End Header-->
+      <!--End Header-->
 
-    <div id="navbar">
-      <a class="nav-link" href="#LandUseFutures">1. Land Use Futures</a>
-      <a class="nav-link" href="#NetZero">2. Net Zero Momentum Tracker</a>
-      <a class="nav-link" href="#WholeOfEconomy">3. Whole of Economy</a>
-      <a class="nav-link" href="#ActForNature">4. Victorians Act for Nature</a>
-    </div>
+      <div id="navbar">
+        <a class="nav-link" href="#LandUseFutures">1. Land Use Futures</a>
+        <a class="nav-link" href="#NetZero">2. Net Zero Momentum Tracker</a>
+        <a class="nav-link" href="#WholeOfEconomy">3. Whole of Economy</a>
+        <a class="nav-link" href="#ActForNature"
+          >4. Victorians Act for Nature</a
+        >
+      </div>
 
-    <div class="page-content">
       <div class="white-container" id="LandUseFutures">
         <div class="row-spacer"></div>
         <div class="row">
