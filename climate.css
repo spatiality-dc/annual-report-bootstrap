@@ -384,6 +384,10 @@ li:not(:last-of-type) {
   top: 1px;
 }
 
+.cta-modal a {
+  color: #fff;
+}
+
 .modal-footer {
   align-content: flex-start;
 }
