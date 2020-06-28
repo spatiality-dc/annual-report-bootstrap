@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Climate Action & Net Zero Transitions</title>
-    <link rel="stylesheet" type="text/css" href="climate.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -19,6 +18,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="climate.css" />
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -37,31 +37,36 @@
   </head>
   <body>
     <div class="header">
-      <div class="d-flex justify-content-end">
-        <button class="large-button-white">
-          <i class="fa fa-download"></i> Download Report
-        </button>
-        <button class="large-button-black">
-          <i class="fa fa-bars" aria-hidden="true"></i> Menu
-        </button>
+      <div class="row justify-content-end">
+        <ul class="nav">
+          <li>
+            <button class="btn-download regular-button-white">
+              <i class="fa fa-download"></i> Download Report
+            </button>
+          </li>
+          <li>
+            <button class="btn-menu regular-button-black">
+              <i class="fa fa-bars" aria-hidden="true"></i> Menu
+            </button>
+          </li>
+        </ul>
       </div>
+      <!--End Button Container-->
       <div class="row">
-        <div class="col-sm-0 col-md-0 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-7">
+        <div class="col-sm-0 col-md-0 col-lg-2"></div>
+        <div class="col-sm-12 col-md-12 col-lg-9">
           <div class="row">
             <h1>
-              Climate Action &<br />
-              Net Zero Transitions
+              Climate Action & Net Zero Transitions
             </h1>
           </div>
           <div class="row">
             <div class="intro">
               Climate change and the economic transition required to solve it
-              will define the coming decade.<br /><br />
-              Be part of the journey.
+              will define the coming decade. Be part of the journey.
             </div>
           </div>
-          <div class="row-spacer"></div>
+          <div class="sm-row-spacer"></div>
           <div class="row">
             <button class="large-button-white">
               Call to Action
@@ -69,7 +74,7 @@
           </div>
         </div>
         <!--End Column-->
-        <div class="col-sm-0 col-md-0 col-lg-4"></div>
+        <div class="col-sm-0 col-md-0 col-lg-1"></div>
         <!--End Column-->
       </div>
       <!-- End row-->
@@ -77,10 +82,10 @@
     <!--End Header-->
 
     <div id="navbar">
-      <a class="nav-link" href="#">1. Land Use Futures</a>
-      <a class="nav-link" href="#">2. Net Zero Momentum Tracker</a>
-      <a class="nav-link" href="#">3. Whole of Economy</a>
-      <a class="nav-link" href="#">4. Victorians Act for Nature</a>
+      <a class="nav-link" href="#LandUseFutures">1. Land Use Futures</a>
+      <a class="nav-link" href="#NetZero">2. Net Zero Momentum Tracker</a>
+      <a class="nav-link" href="#WholeOfEconomy">3. Whole of Economy</a>
+      <a class="nav-link" href="#ActForNature">4. Victorians Act for Nature</a>
     </div>
 
     <div class="page-content">

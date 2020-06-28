@@ -7,7 +7,6 @@ body {
 }
 
 .header {
-  background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
   background-image: url("img/climate-action.jpg");
@@ -46,8 +45,17 @@ body {
   color: fff;
 }
 
-.content {
-  padding: 16px;
+.nav {
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0px;
 }
 
 .sticky {
@@ -66,7 +74,7 @@ h1 {
   /* Roboto Black */
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  font-size: 76px;
+  font-size: 60px;
   line-height: 1.2em;
   color: #fff;
   margin-right: 8em;
@@ -141,15 +149,15 @@ li:not(:last-of-type) {
 }
 
 .row-spacer {
-  height: 4em;
-}
-
-.sm-row-spacer {
   height: 2em;
 }
 
-.xs-row-spacer {
+.sm-row-spacer {
   height: 1em;
+}
+
+.xs-row-spacer {
+  height: 0.5em;
 }
 
 /* Class Things */
@@ -239,10 +247,6 @@ li:not(:last-of-type) {
   position: absolute;
 }
 
-.position-centre {
-  margin: auto;
-}
-
 /* Buttons */
 
 .large-button-white {
@@ -325,6 +329,17 @@ li:not(:last-of-type) {
 .regular-button-black:active {
   position: relative;
   top: 1px;
+}
+
+.btn-menu,
+.btn-download {
+  position: sticky;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  margin-left: 1px;
+  font-size: 14px;
+  padding: 12px 76px;
 }
 
 .cta-button {
@@ -427,14 +442,14 @@ li:not(:last-of-type) {
 
   h1 {
     /* Roboto Black */
-    font-size: 60px;
+    font-size: 44px;
     line-height: 1em;
   }
 
   h2 {
     /* Roboto Black */
     font-size: 24px;
-    line-height: 10em;
+    line-height: 1em;
   }
 
   h3 {
@@ -444,7 +459,7 @@ li:not(:last-of-type) {
   }
 
   h3:first-of-type {
-    line-height: 1.4em;
+    line-height: 1em;
   }
 
   p {
@@ -462,6 +477,11 @@ li:not(:last-of-type) {
 
   /* Segments */
 
+  .intro {
+    /* Roboto Light */
+    font-size: 18px;
+    line-height: 1em;
+  }
   .stats {
     /* Roboto Black */
     font-size: 120px;
@@ -479,9 +499,40 @@ li:not(:last-of-type) {
   /* Buttons */
 
   .cta-button {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     position: relative;
     left: 30%;
+  }
+
+  .large-button-white {
+    font-size: 12px;
+    padding: 18px 54px;
+  }
+
+  .large-button-black {
+    font-size: 12px;
+    padding: 18px 54px;
+  }
+
+  .regular-button-white {
+    font-size: 12px;
+    padding: 12px 54px;
+  }
+
+  .regular-button-black {
+    font-size: 12px;
+    padding: 12px 54px;
+  }
+
+  .btn-menu,
+  .btn-download {
+    position: sticky;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    margin-left: 1px;
+    font-size: 12px;
+    padding: 10px 30px;
   }
 }
 
@@ -491,14 +542,14 @@ li:not(:last-of-type) {
 
   h1 {
     /* Roboto Black */
-    font-size: 48px;
+    font-size: 36px;
     line-height: 1em;
   }
 
   h2 {
     /* Roboto Black */
     font-size: 20px;
-    line-height: 10em;
+    line-height: 1em;
   }
 
   h3 {
@@ -508,7 +559,7 @@ li:not(:last-of-type) {
   }
 
   h3:first-of-type {
-    line-height: 1.4em;
+    line-height: 1em;
   }
 
   p {
@@ -525,6 +576,12 @@ li:not(:last-of-type) {
   }
 
   /* Segments */
+
+  .intro {
+    /* Roboto Light */
+    font-size: 16px;
+    line-height: 1em;
+  }
 
   .stats {
     /* Roboto Black */
@@ -548,5 +605,35 @@ li:not(:last-of-type) {
     margin-bottom: 2em;
     position: relative;
     left: 15%;
+  }
+
+  .large-button-white {
+    font-size: 12px;
+    padding: 16px 48px;
+  }
+
+  .large-button-black {
+    font-size: 12px;
+    padding: 16px 48px;
+  }
+  .regular-button-white {
+    font-size: 12px;
+    padding: 10px 48px;
+  }
+
+  .regular-button-black {
+    font-size: 12px;
+    padding: 10px 48px;
+  }
+
+  .btn-menu,
+  .btn-download {
+    position: sticky;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    margin-left: 1px;
+    font-size: 12px;
+    padding: 8px 24px;
   }
 }
