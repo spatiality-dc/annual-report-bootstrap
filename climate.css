@@ -13,6 +13,7 @@ body {
   background-image: url("img/climate-action.jpg");
   background-size: cover;
   height: 85vh;
+  width: 100vw;
 }
 
 #navbar {
@@ -275,6 +276,7 @@ li:not(:last-of-type) {
   font-size: 14px;
   padding: 24px 76px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .large-button-black:hover {
   background-color: gray;
@@ -346,6 +348,31 @@ li:not(:last-of-type) {
   top: 1px;
 }
 
+.cta-modal {
+  background-color: #fc6228;
+  border: 1px solid #fc6228;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding: 12px 76px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.cta-modal:hover {
+  background-color: gray;
+  color: #fc6228;
+}
+.cta-modal:active {
+  position: relative;
+  top: 1px;
+}
+
+.modal-footer {
+  align-content: flex-start;
+}
+
 .download-button {
   position: absolute;
   top: 0;
@@ -390,4 +417,136 @@ li:not(:last-of-type) {
 }
 .menu-button:active {
   top: 1px;
+}
+
+/* @Media Calls */
+
+/* Medium devices (tablets, 768px and up to 992px) */
+@media screen and (max-width: 992px) {
+  /* Font things */
+
+  h1 {
+    /* Roboto Black */
+    font-size: 60px;
+    line-height: 1em;
+  }
+
+  h2 {
+    /* Roboto Black */
+    font-size: 24px;
+    line-height: 10em;
+  }
+
+  h3 {
+    /* Roboto Medium */
+    font-size: 20px;
+    line-height: 1em;
+  }
+
+  h3:first-of-type {
+    line-height: 1.4em;
+  }
+
+  p {
+    /* Roboto Regular */
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  a {
+    /* Roboto Regular */
+    line-height: 1em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  /* Segments */
+
+  .stats {
+    /* Roboto Black */
+    font-size: 120px;
+    line-height: 1em;
+    text-align: right;
+  }
+
+  .stat-captions {
+    /* Roboto Black */
+    font-size: 20px;
+    color: #fc6228;
+    top: -0.6em;
+  }
+
+  /* Buttons */
+
+  .cta-button {
+    margin-bottom: 2em;
+    position: relative;
+    left: 30%;
+  }
+}
+
+/* Small devices (phones) */
+@media screen and (max-width: 600px) {
+  /* Font things */
+
+  h1 {
+    /* Roboto Black */
+    font-size: 48px;
+    line-height: 1em;
+  }
+
+  h2 {
+    /* Roboto Black */
+    font-size: 20px;
+    line-height: 10em;
+  }
+
+  h3 {
+    /* Roboto Medium */
+    font-size: 18px;
+    line-height: 1em;
+  }
+
+  h3:first-of-type {
+    line-height: 1.4em;
+  }
+
+  p {
+    /* Roboto Regular */
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  a {
+    /* Roboto Regular */
+    line-height: 1em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  /* Segments */
+
+  .stats {
+    /* Roboto Black */
+    font-size: 90px;
+    line-height: 1em;
+    text-align: center;
+    position: relative;
+  }
+
+  .stat-captions {
+    /* Roboto Black */
+    font-size: 20px;
+    color: #fc6228;
+    top: -0.6em;
+    text-align: center;
+    position: relative;
+  }
+  /* Buttons */
+
+  .cta-button {
+    margin-bottom: 2em;
+    position: relative;
+    left: 15%;
+  }
 }

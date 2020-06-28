@@ -19,37 +19,62 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="header">
-      <button class="download-button">
-        <i class="fa fa-download"></i> Download Report
-      </button>
-      <button class="menu-button">
-        <i class="fa fa-bars" aria-hidden="true"></i> Menu
-      </button>
+      <div class="d-flex justify-content-end">
+        <button class="large-button-white">
+          <i class="fa fa-download"></i> Download Report
+        </button>
+        <button class="large-button-black">
+          <i class="fa fa-bars" aria-hidden="true"></i> Menu
+        </button>
+      </div>
       <div class="row">
         <div class="col-sm-0 col-md-0 col-lg-1"></div>
         <div class="col-sm-12 col-md-12 col-lg-7">
           <div class="row">
             <h1>
-              Climate Action & Net Zero Transitions
+              Climate Action &<br />
+              Net Zero Transitions
             </h1>
           </div>
           <div class="row">
             <div class="intro">
               Climate change and the economic transition required to solve it
-              will define the coming decade. Be part of the journey.
+              will define the coming decade.<br /><br />
+              Be part of the journey.
             </div>
           </div>
-          <button class="large-button-white">
-            Call to Action
-          </button>
+          <div class="row-spacer"></div>
+          <div class="row">
+            <button class="large-button-white">
+              Call to Action
+            </button>
+          </div>
         </div>
-        <div class="col-lg-4"></div>
+        <!--End Column-->
+        <div class="col-sm-0 col-md-0 col-lg-4"></div>
+        <!--End Column-->
       </div>
       <!-- End row-->
     </div>
+    <!--End Header-->
 
     <div id="navbar">
       <a class="nav-link" href="#">1. Land Use Futures</a>
@@ -79,7 +104,13 @@
             <div class="cta">
               Are you a funder who's passionate about feeding the world?
             </div>
-            <button class="cta-button">Get In Touch</button>
+            <button
+              class="cta-button"
+              data-toggle="modal"
+              data-target="#landUseModal"
+            >
+              Get In Touch
+            </button>
           </div>
           <!--Close land-use-aside-->
           <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7">
@@ -163,15 +194,52 @@
             <hr />
             <div class="row">
               <div class="col">
-                <p class="cta">
-                  Are you a funder who is passionate about feeding the world?
-                  We’re looking for partners to help us scale up our work in
-                  this area and increase our impact.
-                  <br />
-                  <br />
-                  Contact us for a confidential conversation.
-                </p>
-                <button class="cta-button">Get In Touch</button>
+                <button
+                  class="cta-button"
+                  data-toggle="modal"
+                  data-target="#landUseModal"
+                >
+                  Get In Touch
+                </button>
+              </div>
+
+              <div
+                class="modal fade"
+                id="landUseModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="landUseModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="landUseModalLabel">
+                        Get In Touch
+                      </h3>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Are you a funder who is passionate about feeding the
+                        world? We’re looking for partners to help us scale up
+                        our work in this area and increase our impact.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="cta-modal">
+                        Get In Touch
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="sm-row-spacer"></div>
