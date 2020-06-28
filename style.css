@@ -1,0 +1,134 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  font-family: "Roboto Black", sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url("img/hero.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 90%;
+  padding: 5px;
+}
+
+.climate-action {
+  height: 50vh;
+  background-image: url("img/climate.png");
+  background-size: cover;
+}
+
+.systems-transitions {
+  height: 50vh;
+  background-image: url("img/systems.png");
+  background-size: cover;
+}
+
+.healthy-communities {
+  height: 33.3vh;
+  background-image: url("img/community.png");
+  background-size: cover;
+}
+
+.clean-water {
+  height: 33.3vh;
+  background-image: url("img/water.png");
+  background-size: cover;
+}
+
+.policy-leadership {
+  height: 33.3vh;
+  background-image: url("img/policy.png");
+  background-size: cover;
+}
+
+.responsive-youtube {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.responsive-youtube iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.btn {
+  display: inline;
+  overflow: auto;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s;
+  margin: 2px;
+  color: white;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  height: 33.3vh;
+  background-color: #ef3a4b;
+}
+
+.form-spacer {
+  height: 10px;
+  background-color: #ef3a4b;
+}
+
+.form-header {
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.form-row {
+  text-align: left;
+  margin-left: 10px;
+}
+
+input[type="text"] {
+  border: 0;
+  border-bottom: 1px solid white;
+  outline: 0;
+  background-color: #ef3a4b;
+}
+
+.row-spacer {
+  height: 150px;
+  background-color: black;
+}
+
+.sm-row-spacer {
+  height: 75px;
+  background-color: black;
+}
+
+.xs-row-spacer {
+  height: 20px;
+  background-color: black;
+}
