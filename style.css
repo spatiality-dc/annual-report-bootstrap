@@ -84,6 +84,7 @@ form {
 
 .form-container {
   align-content: center;
+  box-sizing: border-box;
 }
 
 .form-spacer {
