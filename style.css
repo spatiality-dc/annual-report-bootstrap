@@ -6,7 +6,7 @@
   font-size: 1rem;
   color: #fff;
   text-align: center;
-  width: max-content;
+  width: 100%;
 }
 
 .msdi-body:not(form) {
@@ -583,7 +583,7 @@ section {
   }
 
   form {
-    height: 45vh;
+    height: 30vh;
     background-color: #ef3a4b;
     color: #fff;
   }
@@ -681,7 +681,7 @@ section {
   }
 
   form {
-    height: 38vh;
+    height: 33vh;
     background-color: #ef3a4b;
     color: #fff;
   }
@@ -727,7 +727,7 @@ section {
 }
 
 /* Small devices (phones) */
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 20px) {
   form {
     height: 45vh;
     background-color: #ef3a4b;
