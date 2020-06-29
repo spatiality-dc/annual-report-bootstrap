@@ -6,6 +6,7 @@
   font-size: 1rem;
   color: #fff;
   text-align: center;
+  width: max-content;
 }
 
 .msdi-body:not(form) {
@@ -177,7 +178,7 @@ input::placeholder {
 .nav {
   list-style-type: none;
   text-align: right;
-  margin: 0;
+  margin-right: 2em;
   padding: 0;
 }
 
