@@ -9,14 +9,6 @@
   width: 100%;
 }
 
-.msdi-body:not(form) {
-  text-align: left;
-}
-
-.msdi-body:not(p) {
-  text-align: center;
-}
-
 .card-1 {
   height: 50vh;
   background-position: center center;
@@ -173,7 +165,7 @@ input::placeholder {
 
 #navbar a.active {
   background-color: #fc6228;
-  color: fff;
+  color: #fff;
 }
 
 .nav {
@@ -390,6 +382,7 @@ section {
   height: 100%;
   width: 100%;
   position: absolute;
+  border: 0;
 }
 
 /* Buttons */
