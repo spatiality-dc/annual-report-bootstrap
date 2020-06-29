@@ -70,7 +70,7 @@
 }
 
 form {
-  height: 33.3vh;
+  height: 20vh;
   background-color: #ef3a4b;
   color: #fff;
 }
@@ -110,6 +110,11 @@ form {
   outline: none;
   color: #fff;
   font-weight: bold;
+}
+
+input::placeholder {
+  color: #f1f1f1;
+  opacity: 60%;
 }
 
 /* Body Things */
@@ -568,7 +573,7 @@ section {
   }
 
   form {
-    height: 40vh;
+    height: 30vh;
     background-color: #ef3a4b;
     color: #fff;
   }
@@ -669,6 +674,19 @@ section {
     line-height: 1em;
   }
 
+  form {
+    height: 38vh;
+    background-color: #ef3a4b;
+    color: #fff;
+  }
+
+  .form-row {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3em 0em;
+  }
+
   /* Buttons */
 
   .large-button-white {
@@ -699,5 +717,14 @@ section {
     margin-left: 1px;
     font-size: 12px;
     padding: 8px 24px;
+  }
+}
+
+/* Small devices (phones) */
+@media screen and (max-width: 360px) {
+  form {
+    height: 45vh;
+    background-color: #ef3a4b;
+    color: #fff;
   }
 }
