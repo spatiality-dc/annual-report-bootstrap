@@ -69,7 +69,7 @@
 }
 
 form {
-  height: 20vh;
+  height: 25vh;
   background-color: #ef3a4b;
   color: #fff;
 }
@@ -576,7 +576,7 @@ section {
   }
 
   form {
-    height: 30vh;
+    height: 38vh;
     background-color: #ef3a4b;
     color: #fff;
   }
@@ -674,7 +674,7 @@ section {
   }
 
   form {
-    height: 33vh;
+    height: 40vh;
     background-color: #ef3a4b;
     color: #fff;
   }
@@ -720,7 +720,7 @@ section {
 }
 
 /* Small devices (phones) */
-@media screen and (min-width: 200px) and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   form {
     height: 45vh;
     background-color: #ef3a4b;
