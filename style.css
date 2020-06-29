@@ -76,7 +76,7 @@ form {
 }
 
 .form-container {
-  text-align: center;
+  align-content: center;
 }
 
 .form-spacer {
@@ -93,8 +93,8 @@ form {
 }
 
 .form-row {
-  text-align: left;
-  align-items: left;
+  /* text-align: left; */
+  align-items: center;
   margin-left: 10px;
 }
 
@@ -567,6 +567,19 @@ section {
     line-height: 1em;
   }
 
+  form {
+    height: 40vh;
+    background-color: #ef3a4b;
+    color: #fff;
+  }
+
+  .form-row {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em 0em;
+  }
+
   /* Buttons */
 
   .large-button-white {
@@ -643,11 +656,11 @@ section {
   /* Segments */
 
   .climate-action {
-    height: 33vh;
+    height: 33.3vh;
   }
 
   .systems-transitions {
-    height: 33vh;
+    height: 33.3vh;
   }
 
   .intro {
