@@ -9,10 +9,13 @@ body {
 .header {
   padding: 30px;
   text-align: center;
-  background-image: url("img/climate-action.jpg");
-  background-size: cover;
   height: 85vh;
   width: 100vw;
+  background-image: url("img/climate-action.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #0a0a0a;
 }
 
 #navbar {

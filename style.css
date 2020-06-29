@@ -16,34 +16,40 @@
   text-align: center;
 }
 
-.climate-action {
+.card-1 {
   height: 50vh;
-  background-image: url("img/climate.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #0a0a0a;
   background-size: cover;
+}
+
+.card-2 {
+  height: 33.3vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #0a0a0a;
+  background-size: cover;
+}
+
+.climate-action {
+  background-image: url("img/climate.png");
 }
 
 .systems-transitions {
-  height: 50vh;
   background-image: url("img/systems.png");
-  background-size: cover;
 }
 
 .healthy-communities {
-  height: 33.3vh;
   background-image: url("img/community.png");
-  background-size: cover;
 }
 
 .clean-water {
-  height: 33.3vh;
   background-image: url("img/water.png");
-  background-size: cover;
 }
 
 .policy-leadership {
-  height: 33.3vh;
   background-image: url("img/policy.png");
-  background-size: cover;
 }
 
 .btn {
@@ -128,12 +134,14 @@ input::placeholder {
 }
 
 .header {
-  padding: 30px;
   text-align: center;
-  background-image: url("img/hero.png");
-  background-size: cover;
   height: 85vh;
   width: 100vw;
+  background-image: url("img/heroM.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #0a0a0a;
 }
 
 #navbar {
@@ -660,11 +668,7 @@ section {
 
   /* Segments */
 
-  .climate-action {
-    height: 33.3vh;
-  }
-
-  .systems-transitions {
+  .card-1 {
     height: 33.3vh;
   }
 
