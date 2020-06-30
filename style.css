@@ -9,114 +9,6 @@
   width: 100%;
 }
 
-.card-1 {
-  height: 50vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: #0a0a0a;
-  background-size: cover;
-}
-
-.card-2 {
-  height: 33.3vh;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-color: #0a0a0a;
-  background-size: cover;
-}
-
-.climate-action {
-  background-image: url("img/climate.png");
-}
-
-.systems-transitions {
-  background-image: url("img/systems.png");
-}
-
-.healthy-communities {
-  background-image: url("img/community.png");
-}
-
-.clean-water {
-  background-image: url("img/water.png");
-}
-
-.policy-leadership {
-  background-image: url("img/policy.png");
-}
-
-.btn {
-  display: inline;
-  overflow: auto;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  user-select: none;
-  border: 1px solid transparent;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 0.25rem;
-  transition: color 0.15s;
-  margin: 2px;
-  color: white;
-}
-
-.flexbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-form {
-  height: 25vh;
-  background-color: #ef3a4b;
-  color: #fff;
-}
-
-.form-container {
-  align-content: center;
-  box-sizing: border-box;
-}
-
-.form-spacer {
-  height: 10px;
-  background-color: #ef3a4b;
-}
-
-.form-header {
-  color: white;
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-}
-
-.form-row {
-  /* text-align: left; */
-  align-items: center;
-  margin-left: 10px;
-}
-
-.msdi-form {
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom: 1px solid #fff;
-  background-color: #ef3a4b;
-}
-
-.no-outline:focus {
-  outline: none;
-  color: #fff;
-  font-weight: bold;
-}
-
-input::placeholder {
-  color: #f1f1f1;
-  opacity: 60%;
-}
-
 /* Body Things */
 
 .page-content {
@@ -233,6 +125,102 @@ input::placeholder {
   max-width: 95%;
 }
 
+/* Class Things */
+
+.card-1 {
+  height: 50vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #0a0a0a;
+  background-size: cover;
+}
+
+.card-2 {
+  height: 33.3vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #0a0a0a;
+  background-size: cover;
+}
+
+.climate-action {
+  background-image: url("img/climate.png");
+}
+
+.systems-transitions {
+  background-image: url("img/systems.png");
+}
+
+.healthy-communities {
+  background-image: url("img/community.png");
+}
+
+.clean-water {
+  background-image: url("img/water.png");
+}
+
+.policy-leadership {
+  background-image: url("img/policy.png");
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* form {
+  height: 25vh;
+  background-color: #ef3a4b;
+  color: #fff;
+}
+
+.form-container {
+  align-content: center;
+  box-sizing: border-box;
+} */
+
+.footer-colour {
+  background-color: #ef3a4b;
+}
+
+.form-spacer {
+  height: 10px;
+  background-color: #ef3a4b;
+}
+
+.form-header {
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.form-row {
+  align-items: center;
+  margin-left: 10px;
+}
+
+.msdi-form {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 1px solid #fff;
+  background-color: #ef3a4b;
+}
+
+.no-outline:focus {
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: #f1f1f1;
+  opacity: 60%;
+}
+
 /* Font things */
 
 h1 {
@@ -331,8 +319,6 @@ li:not(:last-of-type) {
   height: 0.5em;
 }
 
-/* Class Things */
-
 /* Segments */
 
 section {
@@ -386,6 +372,22 @@ section {
 }
 
 /* Buttons */
+.btn {
+  display: inline;
+  overflow: auto;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s;
+  margin: 2px;
+  color: white;
+}
 
 .large-button-white {
   background-color: #fff;
@@ -582,21 +584,17 @@ section {
     line-height: 1em;
   }
 
-  form {
+  /* form {
     height: 38vh;
     background-color: #ef3a4b;
     color: #fff;
-  }
+  }*/
 
   .form-row {
     text-align: left;
     align-items: center;
     justify-content: center;
     margin: 0.5em 0em;
-  }
-
-  .footer-colour {
-    background-color: #ef3a4b;
   }
 
   /* Buttons */
