@@ -588,6 +588,10 @@ section {
     margin: 0.5em 0em;
   }
 
+  .footer-colour {
+    background-color: #ef3a4b;
+  }
+
   /* Buttons */
 
   .large-button-white {
@@ -674,7 +678,7 @@ section {
   }
 
   form {
-    height: 40vh;
+    height: 45vh;
     background-color: #ef3a4b;
     color: #fff;
   }
@@ -722,7 +726,7 @@ section {
 /* Small devices (phones) */
 @media screen and (max-width: 350px) {
   form {
-    height: 45vh;
+    height: 50vh;
     background-color: #ef3a4b;
     color: #fff;
   }
