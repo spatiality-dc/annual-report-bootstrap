@@ -35,6 +35,10 @@
       crossorigin="anonymous"
     ></script>
     <script>
+      window.onload = function () {
+        document.getElementById("fade").style.opacity = "1";
+      };
+
       function openMenu() {
         document.getElementById("sideMenu").style.width = "25em";
       }
@@ -47,61 +51,59 @@
   </head>
   <body>
     <div class="msdi-body">
-      <div id="sideMenu" class="menu">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()"
-          ><i class="fas fa-times"></i
-        ></a>
-        <br />
-        <br />
-        <a href="#">Climate Actions and Net Zero Transmissions</a>
-        <a href="#">Health and Inclusive Communities</a>
-        <a href="#">Sustainable and Clean Water</a>
-        <a href="#">Systems Transitions</a>
-        <a href="#">Policy and Leadership</a>
-        <div class="xs-row-spacer"></div>
-        <hr />
-        <div class="xs-row-spacer"></div>
-        <a href="#">About Us</a>
-        <a href="#">Chair and Director Reports</a>
-        <a href="#">2019 Awards</a>
-        <a href="#">2019 Reports and Publications</a>
-        <a href="#">2019 Events</a>
-        <a href="#">Partners and Funders</a>
-        <a href="#">Our Team</a>
-        <a href="#">Contact Us</a>
-      </div>
-
       <div class="header">
-        <div class="row justify-content-end">
-          <ul class="nav">
-            <li>
-              <button class="btn-download regular-button-white">
-                <i class="fa fa-download"></i> Download Report
-              </button>
-            </li>
-            <li>
-              <span onclick="openMenu()">
-                <button class="btn-menu regular-button-black">
-                  <i class="fa fa-bars" aria-hidden="true"></i> Menu
+        <div class="container-fluid">
+          <div id="sideMenu" class="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()"
+              ><i class="fas fa-times"></i
+            ></a>
+            <div class="xs-row-spacer"></div>
+            <a href="#"><h6>Climate Actions and Net Zero Transmissions</h6></a>
+            <a href="#"><h6>Health and Inclusive Communities</h6></a>
+            <a href="#"><h6>Sustainable and Clean Water</h6></a>
+            <a href="#"><h6>Systems Transitions</h6></a>
+            <a href="#"><h6>Policy and Leadership</h6></a>
+            <div class="xs-row-spacer"></div>
+            <hr />
+            <div class="xs-row-spacer"></div>
+            <a href="#">About Us</a>
+            <a href="#">Chair and Director Reports</a>
+            <a href="#">2019 Awards</a>
+            <a href="#">2019 Reports and Publications</a>
+            <a href="#">2019 Events</a>
+            <a href="#">Partners and Funders</a>
+            <a href="#">Our Team</a>
+            <a href="#">Contact Us</a>
+          </div>
+
+          <div class="row justify-content-end">
+            <ul class="nav">
+              <li>
+                <button class="btn-download regular-button-white">
+                  <i class="fa fa-download"></i> Download Report
                 </button>
-              </span>
-            </li>
-          </ul>
-        </div>
-        <!--End Button Container-->
-        <div class="row">
-          <div class="col-3"></div>
-          <div class="col-9 justify-content-center">
-            <div class="row">
+              </li>
+              <li>
+                <span onclick="openMenu()">
+                  <button class="btn-menu regular-button-black">
+                    <i class="fa fa-bars" aria-hidden="true"></i> Menu
+                  </button>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <!--End Button Container-->
+          <div class="row">
+            <div class="col-12 text-center align-center center-box" id="fade">
               <h1>
                 TOGETHER, WE'RE MAKING CHANGE POSSIBLE
               </h1>
             </div>
-            <div class="sm-row-spacer"></div>
+            <!--End Column-->
           </div>
-          <!--End Column-->
+          <!-- End row-->
         </div>
-        <!-- End row-->
+        <!--End Fluid Container-->
       </div>
       <!--End Header-->
 
@@ -130,20 +132,51 @@
             <div class="col-lg-1"></div>
             <div class="col-sm-12 col-md-6 col-lg-5">
               <div class="row card-1 climate-action">
+                <button>
+                  <i
+                    class="fa fa-angle-right arrow-button"
+                    aria-hidden="true"
+                  ></i>
+                </button>
                 <h2>Climate Action & Net Zero Transitions</h2>
               </div>
+
               <div class="row card-1 systems-transitions">
+                <button>
+                  <i
+                    class="fa fa-angle-right arrow-button"
+                    aria-hidden="true"
+                  ></i>
+                </button>
                 <h2>Systems Transitions</h2>
               </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-5">
               <div class="row card-2 healthy-communities">
+                <button>
+                  <i
+                    class="fa fa-angle-right arrow-button"
+                    aria-hidden="true"
+                  ></i>
+                </button>
                 <h2>Healthy & Inclusive Communities</h2>
               </div>
               <div class="row card-2 clean-water">
+                <button>
+                  <i
+                    class="fa fa-angle-right arrow-button"
+                    aria-hidden="true"
+                  ></i>
+                </button>
                 <h2>Sustainable & Clean Water</h2>
               </div>
               <div class="row card-2 policy-leadership">
+                <button>
+                  <i
+                    class="fa fa-angle-right arrow-button"
+                    aria-hidden="true"
+                  ></i>
+                </button>
                 <h2>Policy & Leadership</h2>
               </div>
             </div>
