@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Climate Action & Net Zero Transitions</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
     />
     <link
       rel="stylesheet"
@@ -14,352 +18,549 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="systems-style.css" />
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="systems.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.onload = function () {
+        document.getElementById("fade").style.opacity = "1";
+      };
+      function openMenu() {
+        document.getElementById("sideMenu").style.width = "25em";
+      }
 
-    <title>Systems Transitions</title>
+      function closeMenu() {
+        document.getElementById("sideMenu").style.width = "0";
+      }
+    </script>
   </head>
   <body>
-    <header class="jumbotron">
-      <nav>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <button class="btn">
-              <i class="fa fa-download"></i> Download Report
-            </button>
-          </li>
-          <li class="nav-item">
-            <button class="clear btn">
-              <i class="fa fa-bars" aria-hidden="true"></i> Menu
-            </button>
-          </li>
-        </ul>
-      </nav>
-      <div class="row">
-        <div class="col-sm-0 col-md-0 col-lg-1"></div>
-        <div class="col-sm-12 col-md-12 col-lg-7">
-          <div class="h1-text-overlay">
-            <h1>
-              Systems Transitions
-            </h1>
+    <div class="msdi-body">
+      <div class="header">
+        <div class="container-fluid">
+          <div id="sideMenu" class="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()"
+              ><i class="fas fa-times"></i
+            ></a>
+            <div class="xs-row-spacer"></div>
+            <a href="climate/climate.html"
+              ><h4>Climate Actions and Net Zero Transmissions</h4></a
+            >
+            <a href="#"><h4>Health and Inclusive Communities</h4></a>
+            <a href="water.water.html"><h4>Sustainable and Clean Water</h4></a>
+            <a href="systems/systems.html"><h4>Systems Transitions</h4></a>
+            <a href="#"><h4>Policy and Leadership</h4></a>
+            <div class="xs-row-spacer"></div>
+            <hr />
+            <div class="xs-row-spacer"></div>
+            <a href="#">About Us</a>
+            <a href="#">Chair and Director Reports</a>
+            <a href="#">2019 Awards</a>
+            <a href="#">2019 Reports and Publications</a>
+            <a href="#">2019 Events</a>
+            <a href="#">Partners and Funders</a>
+            <a href="#">Our Team</a>
+            <a href="#">Contact Us</a>
           </div>
-          <div class="intro-text-overlay">
-            <h3>
-              Major transformations are underway in Australia and around the world. Be part of it.
-            </h3>
-          </div>
-          <button class="cta-btn-reg-white">Call to Action</button>
-        </div>
-        <div class="col-lg-4"></div>
-      </div>
-    </header>
 
-    <div class="row">
-      <div class="col-12">
-        <nav
-          class="navbar navbar-expand-md navbar-light" id="navbar">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">1. Waste Collaboration</a>
+          <div class="row justify-content-end">
+            <ul class="nav">
+              <li>
+                <button class="btn-download regular-button-white">
+                  <i class="fa fa-download"></i> Download Report
+                </button>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">2. Local SDGs Program</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">3. Localising SDGs Research Cohort</a>
+              <li>
+                <span onclick="openMenu()">
+                  <button class="btn-menu regular-button-black">
+                    <i class="fa fa-bars" aria-hidden="true"></i> Menu
+                  </button>
+                </span>
               </li>
             </ul>
-        </nav>
-      </div>
-    </div>
-
-  <div class="page-content">
-
-    <div class="sm-row-spacer"></div>
-    <div class="row">
-      <div class="col-1"></div>
-      <div class="col-10 intro-text">
-        <p>Unprecedented economic, social and technological changes are reshaping our local areas, cities, regions, and environment.  We’re working with local communities and stakeholders across government, industry and the community to make the most of them and create a sustainable future.</p>
-      </div>
-      <div class="col-1"></div>
-    </div>
-    <div class="sm-row-spacer"></div>
-
-    <div class="white-container">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-11 section-mini-title">
-          <p>1. Waste Collaboration</p>
+          </div>
+          <!--End Button Container-->
+          <div class="row">
+            <div class="col-12 text-center align-center center-box" id="fade">
+              <h1>
+                Climate Action & Net Zero Transitions
+              </h1>
+              <div class="intro">
+                Climate change and the economic transition required to solve it
+                will define the coming decade. Be part of the journey.
+              </div>
+            </div>
+            <!--End Column-->
+            <div class="sm-row-spacer"></div>
+            <div class="row">
+              <button class="large-button-white">
+                Call to Action
+              </button>
+            </div>
+          </div>
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <!--End Column-->
         </div>
+        <!-- End row-->
       </div>
-      <div class="row">
-        <div class="col-sm-1 col-md-1 col-lg-1"></div>
-        <div class="col-sm-10 col-md-12 col-lg-3 col-xl-3 land-use-aside"><!--Open land-use-aside-->
-          <h2>
-            How do we help solve Australia’s waste crisis?
-          </h2>
-          <div class="xs-row-spacer"></div>
-          <p class="cta-text-climate">
-            We’re turning our attention to sustainable consumption and climate change too.
-          </p>
-          <button class="cta-btn-sm-climate">Learn More</button>
-          <div class="sm-row-spacer"></div>
-        </div><!--Close land-use-aside-->
-        <div class="col-sm-10 col-md-12 col-lg-7 col-xl-7 land-use-article"><!--Open land-use-article-->
-          <h3>Behaviour change is key</h3>
-          <p>
-            For almost a decade, our BehaviourWorks Australia team has been collaborating with leading government agencies and The Shannon Company to find human-centred solutions to social, environmental and organisational problems. In 2018-2019 we turned our attention to Australia’s waste crisis, bringing several partners together in a new ‘mission-based’ project to make it easier for households, businesses and the whole Australian community to avoid, reduce, reuse and recycle waste.
-          </p>
-          <h3>Identifying where we can help</h3>
-          <p>
-            The Waste and Circular Economy collaboration draws together the expertise, resources and reach of partners including Sustainability Victoria, the Victorian Government Department of Environment, Land, Water and Planning, Environment Protection Authority Victoria, Australian Government Department of Agriculture, Water and the Environment and NSW Department of Planning, Industry and Environment.
-          </p>
-          <p>
-            By working through several steps outlined in the BWA Method, the partners identified three areas to focus on:
-            <br> 
+      <!--End Header-->
+
+      <div id="navbar">
+        <a class="nav-link" href="#WasteCollaboration"
+          >1. Waste Collaboration</a
+        >
+        <a class="nav-link" href="#LocalSDGs">2. Local SDGs Program</a>
+        <a class="nav-link" href="#LocalCohort"
+          >3. Localising SDGs Research Cohort</a
+        >
+      </div>
+
+      <div class="white-container" id="WasteCollaboration">
+        <div class="row-spacer"></div>
+        <div class="row">
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-11 col-xl-11 story-title">
+            1. Waste Collaboration
+          </div>
+        </div>
+        <!--End row-->
+        <div class="row">
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 aside">
+            <!--Open aside-->
+            <h2>
+              How do we help solve Australia’s waste crisis?
+            </h2>
+            <div class="cta">
+              We’re turning our attention to sustainable consumption and climate
+              change too.
+            </div>
+            <button
+              class="cta-button"
+              data-toggle="modal"
+              data-target="#wasteCollaborationModal"
+            >
+              Learn more
+            </button>
+          </div>
+          <!--Close aside-->
+          <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7">
+            <!--Open article-->
+            <h3>Behaviour change is key</h3>
+            <p>
+              For almost a decade, our BehaviourWorks Australia team has been
+              collaborating with leading government agencies and The Shannon
+              Company to find human-centred solutions to social, environmental
+              and organisational problems. In 2018-2019 we turned our attention
+              to Australia’s waste crisis, bringing several partners together in
+              a new ‘mission-based’ project to make it easier for households,
+              businesses and the whole Australian community to avoid, reduce,
+              reuse and recycle waste.
+            </p>
+            <h3>Identifying where we can help</h3>
+            <p>
+              The Waste and Circular Economy collaboration draws together the
+              expertise, resources and reach of partners including
+              Sustainability Victoria, the Victorian Government Department of
+              Environment, Land, Water and Planning, Environment Protection
+              Authority Victoria, Australian Government Department of
+              Agriculture, Water and the Environment and NSW Department of
+              Planning, Industry and Environment.
+            </p>
+            <p>
+              By working through several steps outlined in the BWA Method, the
+              partners identified three areas to focus on:
               <ul>
                 <li>Reducing kerbside and commingled recycling contamination</li>
-                <li>Figuring out if consumer labelling could help improve circular economy outcomes, and
+                <li>Figuring out if consumer labelling could help improve circular economy outcomes, and</li>
                 <li>Overcoming barriers to businesses adopting circular economy practices.</li>
               </ul>
-          </p>
-          <p>
-            Following a series of stakeholder interviews and rapid reviews to figure out ‘what’s worked’ in other areas and jurisdictions, we shared the findings with the partners and with national and international experts. The reviews also informed recent policy development in Victoria and NSW.
-          </p>
-          <h3>Trialling the solutions</h3>
-          <p>
-            In 2019, our team engaged further with an extended group of partners, including local councils and businesses, to gauge their interest in running a series of ground-breaking trials and experiments. Our aim is to apply behavioural public policy interventions to the three areas. Four trials are now underway across the three projects, with preliminary results expected in July 2020. 
-          </p>
-          <div class="row">
-            <div class="col mt-auto stats-climate">
-              4
-            </div>
-            <div class="col mt-auto stats-captions-climate">
-              trials underway
-            </div>
-          </div>
-          <div class="row">
-            <div class="col mt-auto stats-climate">
-              7
-            </div>
-            <div class="col mt-auto stats-captions-climate">
-              partners
-            </div>
-          </div>
-          <div class="xs-row-spacer"></div>
-          <hr />
-          <div class="xs-row-spacer"></div>
-          <div class="row">
-            <div class="col">
-            <p class="cta-text-climate">
-              Our BehaviourWorks team is turning its attention to sustainable consumption and production, and climate change, and looking for new partners.
-              <br />
-              <br />
-              If you’re interested, please get in touch. 
             </p>
-          <div class="xs-row-spacer"></div>
-          <button class="cta-btn-sm-climate">Get In Touch</button>
-          <div class="xs-row-spacer"></div>
-          </button>
+            <p>
+              Following a series of stakeholder interviews and rapid reviews to figure out ‘what’s worked’ in other areas and jurisdictions, we shared the findings with the partners and with national and international experts. The reviews also informed recent policy development in Victoria and NSW.
+            </p>
+            <h3>Trialling the solutions</h3>
+            <p>
+              In 2019, our team engaged further with an extended group of partners, including local councils and businesses, to gauge their interest in running a series of ground-breaking trials and experiments. Our aim is to apply behavioural public policy interventions to the three areas. Four trials are now underway across the three projects, with preliminary results expected in July 2020.
+            </p>
+            <div class="row">
+              <div class="col mt-auto stats">
+                4
+              </div>
+              <div class="col mt-auto stat-captions">
+                trials underway
+              </div>
+            </div>
+            <div class="row">
+              <div class="col mt-auto stats">
+                7
+              </div>
+              <div class="col mt-auto stat-captions">
+                partners
+              </div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col">
+                <button
+                  class="cta-button"
+                  data-toggle="modal"
+                  data-target="#wasteCollaborationModal"
+                >
+                  Get In Touch
+                </button>
+              </div>
+
+              <div
+                class="modal fade"
+                id="wasteCollaborationModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="wasteCollaborationModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="wasteCollaborationModalLabel">
+                        Get In Touch
+                      </h3>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Our BehaviourWorks team is turning its attention to sustainable consumption and production, and climate change, and looking for new partners.  
+                        <br />
+                        <br />
+                        If you’re interested, please get in touch.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="cta-modal">
+                        <a href="mailto:">
+                          Get In Touch - No email link</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sm-row-spacer"></div>
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
           </div>
-        </div><!--Close land-use-article-->
-      </div>
-      <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-      <div class="xs-row-spacer"></div>
-    </div><!--Close container-->
-
-    <div class="sm-row-spacer"></div>
-
-    <div class="grey-container">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-11 section-mini-title">
-          <p>2. Local SDGs Program</p>
+          <!--Close article-->
         </div>
+        <!--End row-->
       </div>
-      <div class="row">
-        <div class="col-sm-1 col-md-1 col-lg-1"></div>
-        <div class="col-sm-10 col-md-12 col-lg-3 col-xl-3 land-use-aside"><!--Open land-use-aside-->
-          <h2>
-            How can we develop pathways for local communities to implement the SDGs? 
-          </h2>
-          <div class="xs-row-spacer"></div>
-          <p class="cta-text-climate">
-            If you're a local community group or council who is interested in this research, we’d love to work with you.
-          </p>
-          <button class="cta-btn-sm-climate">Get In Touch</button>
-          <div class="sm-row-spacer"></div>
-        </div><!--Close land-use-aside-->
-        <div class="col-sm-10 col-md-12 col-lg-7 col-xl-7 land-use-article"><!--Open land-use-article-->
-          <h3>Charting pathways to implementation</h3>
-          <p>
-            Local communities are concerned about the future as change is occurring more rapidly than at any time in human history. Communities are asking how they can be more resilient, adaptive, cleaner, greener, manage risks, and cope with surprises. How can they achieve ambitious global sustainability goals, while responding to their own local needs and desires? 
-          </p>
-          <p>
-            MSDI is working with Deakin University to develop robust pathways for local Australian communities to adapt, prosper, and thrive under future uncertainty, taking a bottom up approach to achieving the SDGs.
-          </p>
-          <p>
-            The project has two parts to it:
+      <!--Close container-->
+
+      <div class="grey-container" id="LocalSDGs">
+        <div class="row-spacer"></div>
+        <div class="row">
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-11 col-xl-11 story-title">
+            2. Local SDGs Program
+          </div>
+        </div>
+        <!--End row-->
+        <div class="row">
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 aside">
+            <!--Open aside-->
+            <h2>
+              How can we develop pathways for local communities to implement the SDGs?
+            </h2>
+            <div class="cta">
+              If you're a local community group or council who is interested in this research, we’d love to work with you. Get in touch. 
+            </div>
+            <button
+              class="cta-button"
+              data-toggle="modal"
+              data-target="#LocalSDGsModal"
+            >
+              Get In Touch
+            </button>
+          </div>
+          <!--Close aside-->
+          <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7">
+            <!--Open article-->
+            <h3>Charting pathways to implementation</h3>
+            <p>
+              Local communities are concerned about the future as change is occurring more rapidly than at any time in human history. Communities are asking how they can be more resilient, adaptive, cleaner, greener, manage risks, and cope with surprises. How can they achieve ambitious global sustainability goals, while responding to their own local needs and desires?
+            </p>
+            <p>
+              MSDI is working with Deakin University to develop robust pathways for local Australian communities to adapt, prosper, and thrive under future uncertainty, taking a bottom up approach to achieving the SDGs. 
+            </p>
+            <p>
+              The project has two parts to it:
               <ul>
                 <li>Modelling and analysis to identify the pathways to achieve the SDGs in a local area (led by Deakin)</li>
                 <li>Governance and participatory action to help realise those pathways, involving local stakeholders and bottom up initiatives (led by MSDI)</li>
-            </ul>
-          </p>
-          <h3>Building the tools and learning from the past   </h3>
+              </ul>
+            </p>
+            <h3>Building the tools and learning from the past</h3>
+            <p>
+              In 2019, the team at Deakin started to develop the architecture of a computational model that can simulate different pathways to achieving the SDGs, aligned with local needs and objectives. Meanwhile, our MSDI team reviewed local sustainability initiatives internationally. We wanted to understand the challenges faced and what creates success in bottom-up action. Those lessons will inform future action for the SDGs.
+            </p>
           <p>
-            In 2019, the team at Deakin started to develop the architecture of a computational model that can simulate different pathways to achieving the SDGs, aligned with local needs and objectives. Meanwhile, our MSDI team reviewed local sustainability initiatives internationally. We wanted to understand the challenges faced and what creates success in bottom-up action. Those lessons will inform future action for the SDGs. 
+            In 2019, we also developed two comprehensive case studies in the Forrest-Otways community and the Goulburn-Murray community in Victoria. These communities are highly susceptible to the environmental, social and economic effects of climate change. They are also communities in transition who are working to define what a sustainable and resilient future looks like. 
           </p>
           <p>
-            In 2019, we also developed two comprehensive case studies in the Forrest-Otways community and the Goulburn-Murray community in Victoria. These communities are highly susceptible to the environmental, social and economic effects of climate change. They are also communities in transition who are working to define what a sustainable and resilient future looks like.
-          </p>
-          <p>
-            We also held community workshops and consultation sessions to discuss the issues faced by these communities. They engaged with our researchers in co-creating detailed, locally-tailored objectives. 
+            We also held community workshops and consultation sessions to discuss the issues faced by these communities. They engaged with our researchers in co-creating detailed, locally-tailored objectives.
           </p>
           <p>
             In 2020 we’re continuing the modelling and governance work to develop practical information and strategies to be used by the communities in our case studies. Our ultimate aim is to build on those case studies to create a generic framework that local communities can use across rural and regional Australia. Use of this framework will ultimately help Australia and the world achieve the UN’s Agenda 2030 and the SDGs from a grass roots level.
           </p>
           <p>
-            <i>Partners include Ian Potter Foundation</i>, Department of Environment, Land, Water and Planning in Geelong, the North Central Catchment Management Authority and the Forest and District Community Group
+            Partners include Ian Potter Foundation, Department of Environment, Land, Water and Planning in Geelong, the North Central Catchment Management Authority and the Forest and District Community Group
           </p>
-         
-          <div class="row">
-            <div class="col mt-auto stats-climate">
-              7
+            <div class="row">
+              <div class="col mt-auto stats">
+                7
+              </div>
+              <div class="col mt-auto stat-captions">
+                workshops held
+              </div>
             </div>
-            <div class="col mt-auto stats-captions-climate">
-              workshops held
+            <div class="row">
+              <div class="col mt-auto stats">
+                4
+              </div>
+              <div class="col mt-auto stat-captions">
+                key partners involved
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col mt-auto stats-climate">
-              4
-            </div>
-            <div class="col mt-auto stats-captions-climate">
-              key partners involved
-            </div>
-          </div>
-          <div class="xs-row-spacer"></div>
-          <hr />
-          <div class="xs-row-spacer"></div>
-          <div class="row">
-            <div class="col">
-            <p class="cta-text-climate">
-              We believe the key to successfully implementing the Global Goals is action at the local level. But we need to map out pathways that work for local communities. If you’re a local community group or council and are interested in our research approach, we’d love to hear from you. 
-              <br />
-              <br />
-              Get in touch to find out how we can help you.
-            </p>
-          <div class="xs-row-spacer"></div>
-          <button class="cta-btn-sm-climate">Get In Touch</button>
-          <div class="xs-row-spacer"></div>
-          </button>
-          </div>
-        </div><!--Close land-use-article-->
-      </div>
-      <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-      <div class="xs-row-spacer"></div>
-    </div><!--Close container-->
 
-    <div class="sm-row-spacer"></div>
+            <hr />
+            <div class="row">
+              <div class="col">
+                <button
+                  class="cta-button"
+                  data-toggle="modal"
+                  data-target="#LocalSDGsModal"
+                >
+                  Get In Touch
+                </button>
+              </div>
 
-    <div class="white-container">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-11 section-mini-title">
-          <p>3. Localising SDGs Research Cohort</p>
+              <div
+                class="modal fade"
+                id="LocalSDGsModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="LocalSDGsModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="LocalSDGsModalLabel">
+                        We'd Love To Hear From You
+                      </h3>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        We believe the key to successfully implementing the Global Goals is action at the local level. But we need to map out pathways that work for local communities.<br />
+                        <br />
+                        If you’re a local community group or council and are interested in our research approach, we’d love to hear from you. Get in touch to find out how we can help you. 
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="cta-modal">
+                        <a
+                          href="mailto:"
+                        >
+                          Contact Us - Link missing</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sm-row-spacer"></div>
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+          </div>
+          <!--Close article-->
         </div>
+        <!--End row-->
       </div>
-      <div class="row">
-        <div class="col-sm-1 col-md-1 col-lg-1"></div>
-        <div class="col-sm-10 col-md-12 col-lg-3 col-xl-3 land-use-aside"><!--Open land-use-aside-->
-          <h2>
-            How can the SDGs enable transformative action in different sectors of society? 
-          </h2>
-          <div class="xs-row-spacer"></div>
-          <p class="cta-text-climate">
-            If you are a city, local council, community group or university wanting to work with the SDGs, we’d love to hear from you.
-          </p>
-          <button class="cta-btn-sm-climate">Get In Touch</button>
-          <div class="sm-row-spacer"></div>
-        </div><!--Close land-use-aside-->
-        <div class="col-sm-10 col-md-12 col-lg-7 col-xl-7 land-use-article"><!--Open land-use-article-->
-          <h3>Towards SDG transformations </h3>
-          <p>
-            The Sustainable Development Goals are a blueprint to achieve a better and more sustainable future for all. They address the global challenges we face, including poverty, inequality, climate change, peace and justice. Global goals however require local action to be successful. That’s why three MSDI PhD students are taking a closer look at how this global framework can enable transformative change in different levels of society – from cities and urban spaces, to regional areas, and universities.
-          </p>
-          <p>
-            Our students are researching the ways in which people in different sectors are currently working with the SDGs. And they’re working to understand whether or not the SDGs are indeed leading to systemic change.
-          </p>
-          <h3>Understanding the past, engaging with the future </h3>
-          <p>
-            The program has enrolled three PhD students. Andrea Cuesta Claros’ research is exploring the relationship between the SDGs and the transformative role of Higher Education Institutions towards sustainable development. Jarrod Grainger Brown’s research aims to understand the role the SDGs can play in changing the ways in which cities are planned and shaped. And Dianty Ningrum’s research is examining the scope for transformative local action in implementing the SDGs.
-          </p>
-          <p>
-            They kicked off their research in September 2019 by trying to understand and synthesise the lessons from past experiences of engaging with sustainable development in cities, regional and local communities, and universities. They also looked at how transformations and transformative change are understood in these spaces. 
-          </p>
-          <p>
-            In 2020, the students will publish the results of their review and start their case studies to understand how different societal stakeholders are currently working with the SDGs. They’ll also examine the enablers and barriers to transformative action. Ultimately, they will develop frameworks for governance through the SDGs, to support different stakeholders to become agents for change towards sustainable development. 
-          </p>
-          <p>
-            <i>Partners and funders include the Ian Potter Foundation, and Westpac Foundation. Collaborators include SDSN AusNZPac, Deakin University and  Monash Art Design Architecture (MADA).</i>
-          </p>
-          
-          <div class="row">
-            <div class="col mt-auto stats-captions-climate">
-              
+      <!--Close container-->
+
+      <div class="white-container" id="LocalCohort">
+        <div class="row-spacer"></div>
+        <div class="row">
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-11 col-xl-11 story-title">
+            3. Localising SDGs Research Cohort
+          </div>
+        </div>
+        <!--End row-->
+        <div class="row">
+          <div class="col-sm-0 col-md-0 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 aside">
+            <!--Open aside-->
+            <h2>
+              How can the SDGs enable transformative action in different sectors of society?
+            </h2>
+            <div class="cta">
+              If you are a city, local council, community group or university wanting to work with the SDGs, we’d love to hear from you.
             </div>
+            <button
+              class="cta-button"
+              data-toggle="modal"
+              data-target="#LocalCohortModal"
+            >
+              Contact Us
+            </button>
           </div>
-          <div class="xs-row-spacer"></div>
-          <hr />
-          <div class="xs-row-spacer"></div>
-          <div class="row">
-            <div class="col">
-            <p class="cta-text-climate">
-              If you are a city, local council, community group or university keen on working with SDGs in a transformative way, we want to hear from you. 
-              <br />
-              <br />
-              If you’re just starting out and want to learn more, click here to access our resources. 
+          <!--Close aside-->
+          <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7">
+            <!--Open article-->
+            <h3>Towards SDG transformations</h3>
+            <p>
+              The Sustainable Development Goals are a blueprint to achieve a better and more sustainable future for all. They address the global challenges we face, including poverty, inequality, climate change, peace and justice. Global goals however require local action to be successful. That’s why three MSDI PhD students are taking a closer look at how this global framework can enable transformative change in different levels of society – from cities and urban spaces, to regional areas, and universities. 
             </p>
-          <div class="xs-row-spacer"></div>
-          <button class="cta-btn-sm-climate">Access our resources</button>
-          <div class="sm-row-spacer"></div>
-          <p>
-            <b>Learn more:</b><br>
-            <a href="https://scholars.westpacgroup.com.au/Scholars/Profile?Id=3349">Jarrod Grainger-Brown's Profile</a><br>
-            <a href="https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(19)30087-7/fulltext">Local Agenda 2030 for sustainable development</a><br>
+            <p>
+              Our students are researching the ways in which people in different sectors are currently working with the SDGs. And they’re working to understand whether or not the SDGs are indeed leading to systemic change.
+            </p>
+            <h3>Understanding the past, engaging with the future</h3>
+            <p>
+              The program has enrolled three PhD students. Andrea Cuesta Claros’ research is exploring the relationship between the SDGs and the transformative role of Higher Education Institutions towards sustainable development. Jarrod Grainger Brown’s research aims to understand the role the SDGs can play in changing the ways in which cities are planned and shaped. And Dianty Ningrum’s research is examining the scope for transformative local action in implementing the SDGs.
+            </p>
+            <p>
+              They kicked off their research in September 2019 by trying to understand and synthesise the lessons from past experiences of engaging with sustainable development in cities, regional and local communities, and universities. They also looked at how transformations and transformative change are understood in these spaces.
+            </p>
+            <p>
+              In 2020, the students will publish the results of their review and start their case studies to understand how different societal stakeholders are currently working with the SDGs. They’ll also examine the enablers and barriers to transformative action. Ultimately, they will develop frameworks for governance through the SDGs, to support different stakeholders to become agents for change towards sustainable development. 
+            </p>
+            <p>
+              Partners and funders include the Ian Potter Foundation, and Westpac Foundation. Collaborators include SDSN AusNZPac, Deakin University and  Monash Art Design Architecture (MADA).
+            </p>
+            <div class="row">
+              <div class="col mt-auto stats">
+                GRAPHIC GOES HERE
+              </div>
+            </div>
+            <div class="col">
+              <h4>Links</h4>
+              <p>
+                <a href="https://scholars.westpacgroup.com.au/Scholars/Profile?Id=3349">Read Jarrod Grainger-Brown's profile here</a>.
+              <br><br>
+                <a href="https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(19)30087-7/fulltext">Read the Local Agenda 2030 for sustainable development</a> article in the Lancet Planetary Health journal.
+              </p>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col">
+                <button
+                  class="cta-button"
+                  data-toggle="modal"
+                  data-target="#LocalCohortModal"
+                >
+                 Learn More
+                </button>
+              </div>
 
-          </p>
+              <div
+                class="modal fade"
+                id="economyModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="economyModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="economyModalLabel">
+                        Learn More
+                      </h3>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        If you are a city, local council, community group or university keen on working with SDGs in a transformative way, we want to hear from you. 
+                        <br /><br />
+                        If you’re just starting out and want to learn more, click here to access our resources.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="cta-modal">
+                        <a
+                          href="#"
+                          >Access Our Resources - no link</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sm-row-spacer"></div>
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
           </div>
-        </div><!--Close land-use-article-->
+          <!--Close article-->
+        </div>
+        <!--End row-->
       </div>
-      <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-      <div class="xs-row-spacer"></div>
-    </div><!--Close container-->
+      <!--Close container-->
 
-    <div class="sm-row-spacer"></div>
+      
+    </div>
+    <!--Close page-content-->
 
-
-  </div><!--Close page-content-->
-    
     <script>
+      window.onscroll = function () {
+        stickyFunction();
+      };
 
-/* ========================================== 
-scrollTop() >= 300
-Should be equal the the height of the header
-========================================== */
+      const navbar = document.getElementById("navbar");
+      const sticky = navbar.offsetTop;
 
-$(window).scroll(function(){
-    if ($(window).scrollTop() >= 700) {
-        $("#navbar").addClass("fixed-header");
-    }
-    else {
-        $("#navbar").removeClass("fixed-header");
-    }
-})
+      function stickyFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
     </script>
   </body>
 </html>
