@@ -35,8 +35,11 @@
       crossorigin="anonymous"
     ></script>
     <script>
+      window.onload = function () {
+        document.getElementById("fade").style.opacity = "1";
+      };
       function openMenu() {
-        document.getElementById("sideMenu").style.width = "250px";
+        document.getElementById("sideMenu").style.width = "25em";
       }
 
       function closeMenu() {
@@ -45,55 +48,56 @@
     </script>
   </head>
   <body>
-    <div class="page-content">
-      <div id="sideMenu" class="menu">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()"
-          >&times;</a
-        >
-        <b><a href="#">Climate Actions and Net Zero Transmissions</a></b>
-        <b><a href="#">Health and Inclusive Communities</a></b>
-        <b><a href="#">Sustainable and Clean Water</a></b>
-        <b><a href="#">Systems Transitions</a></b>
-        <b><a href="#">Policy and Leadership</a></b>
-        <div class="xs-row-spacer"></div>
-        <hr />
-        <div class="xs-row-spacer"></div>
-        <a href="#">About Us</a>
-        <a href="#">Chair and Director Reports</a>
-        <a href="#">2019 Awards</a>
-        <a href="#">2019 Reports and Publications</a>
-        <a href="#">2019 Events</a>
-        <a href="#">Partners and Funders</a>
-        <a href="#">Our Team</a>
-        <a href="#">Contact Us</a>
-      </div>
+    <div class="msdi-body">
       <div class="header">
-        <div class="row justify-content-end">
-          <ul class="nav">
-            <li>
-              <button class="btn-download regular-button-white">
-                <i class="fa fa-download"></i> Download Report
-              </button>
-            </li>
-            <li>
-              <span onclick="openMenu()">
-                <button class="btn-menu regular-button-black">
-                  <i class="fa fa-bars" aria-hidden="true"></i> Menu
+        <div class="container-fluid">
+          <div id="sideMenu" class="menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()"
+              ><i class="fas fa-times"></i
+            ></a>
+            <div class="xs-row-spacer"></div>
+            <a href="climate/climate.html"
+              ><h4>Climate Actions and Net Zero Transmissions</h4></a
+            >
+            <a href="#"><h4>Health and Inclusive Communities</h4></a>
+            <a href="water.water.html"><h4>Sustainable and Clean Water</h4></a>
+            <a href="systems/systems.html"><h4>Systems Transitions</h4></a>
+            <a href="#"><h4>Policy and Leadership</h4></a>
+            <div class="xs-row-spacer"></div>
+            <hr />
+            <div class="xs-row-spacer"></div>
+            <a href="#">About Us</a>
+            <a href="#">Chair and Director Reports</a>
+            <a href="#">2019 Awards</a>
+            <a href="#">2019 Reports and Publications</a>
+            <a href="#">2019 Events</a>
+            <a href="#">Partners and Funders</a>
+            <a href="#">Our Team</a>
+            <a href="#">Contact Us</a>
+          </div>
+
+          <div class="row justify-content-end">
+            <ul class="nav">
+              <li>
+                <button class="btn-download regular-button-white">
+                  <i class="fa fa-download"></i> Download Report
                 </button>
-              </span>
-            </li>
-          </ul>
-        </div>
-        <!--End Button Container-->
-        <div class="row">
-          <div class="col-sm-0 col-md-0 col-lg-2"></div>
-          <div class="col-sm-12 col-md-12 col-lg-9">
-            <div class="row">
+              </li>
+              <li>
+                <span onclick="openMenu()">
+                  <button class="btn-menu regular-button-black">
+                    <i class="fa fa-bars" aria-hidden="true"></i> Menu
+                  </button>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <!--End Button Container-->
+          <div class="row">
+            <div class="col-12 text-center align-center center-box" id="fade">
               <h1>
                 Climate Action & Net Zero Transitions
               </h1>
-            </div>
-            <div class="row">
               <div class="intro">
                 Climate change and the economic transition required to solve it
                 will define the coming decade. Be part of the journey.
