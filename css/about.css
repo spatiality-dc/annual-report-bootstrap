@@ -461,10 +461,6 @@ h2 {
   text-align: center;
 }
 
-.h2left {
-  text-align: left;
-}
-
 h3 {
   /* Roboto Medium */
   font-family: "Roboto", sans-serif;
@@ -478,11 +474,19 @@ h3 {
 }
 
 h4 {
-  text-align: left;
+  /* Roboto Medium */
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1.25rem;
-  line-height: 1em;
+  /* line-height: 1.5em; */
+  color: #818181;
+  /* padding-top: 1.5rem;
+  padding-bottom: 1.5rem; */
+}
+
+.h4left {
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: left;
   color: #0a0a0a;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -763,6 +767,10 @@ section {
 
 .arrow-button {
   padding-top: -1em;
+}
+
+.left-align {
+  text-align: left;
 }
 
 /* @Media Calls */
