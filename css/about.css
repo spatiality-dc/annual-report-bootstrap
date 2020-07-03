@@ -477,6 +477,17 @@ h3 {
   text-align: left;
 }
 
+h4 {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1em;
+  color: #0a0a0a;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 p {
   /* Roboto Regular */
   font-family: "Roboto", sans-serif;
@@ -778,6 +789,11 @@ section {
     line-height: 1em;
   }
 
+  h4 {
+    font-size: 1rem;
+    line-height: 0.75em;
+  }
+
   p {
     /* Roboto Regular */
     padding-top: 0.75rem;
@@ -903,6 +919,11 @@ section {
     /* Roboto Medium */
     font-size: 1rem;
     line-height: 1em;
+  }
+
+  h4 {
+    font-size: 1rem;
+    line-height: 0.75em;
   }
 
   p {
