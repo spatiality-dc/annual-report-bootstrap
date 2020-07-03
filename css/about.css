@@ -546,7 +546,7 @@ section {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   line-height: 1.2em;
-  color: #fff;
+  color: #0a0a0a;
 }
 
 .story-title {
@@ -765,10 +765,6 @@ section {
   h3 {
     /* Roboto Medium */
     font-size: 1.25rem;
-    line-height: 1em;
-  }
-
-  h3:first-of-type {
     line-height: 1em;
   }
 
