@@ -435,7 +435,7 @@ img {
 }
 .cta-modal:hover {
   background-color: gray;
-  color: #ef3a4b;
+  color: #fff;
 }
 .cta-modal:active {
   position: relative;
@@ -443,6 +443,10 @@ img {
 }
 
 .cta-modal a {
+  color: #fff;
+}
+
+.cta-modal a:hover {
   color: #fff;
 }
 
