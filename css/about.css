@@ -407,12 +407,12 @@ img {
 }
 
 .footer-colour {
-  background-color: #ef3a4b;
+  background-color: #fff;
 }
 
 .form-spacer {
   height: 0.625rem;
-  background-color: #ef3a4b;
+  background-color: #fff;
 }
 
 .form-header {
@@ -424,7 +424,7 @@ img {
 }
 
 .form-row {
-  align-items: center;
+  text-align: left;
   margin-left: 0.625rem;
 }
 
@@ -432,8 +432,7 @@ img {
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
-  border-bottom: 1px solid #fff;
-  background-color: #ef3a4b;
+  border-bottom: 1px solid #0a0a0a;
 }
 
 .no-outline:focus {
@@ -443,7 +442,7 @@ img {
 }
 
 input::placeholder {
-  color: #f1f1f1;
+  color: #0a0a0a;
   opacity: 60%;
 }
 
