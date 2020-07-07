@@ -242,6 +242,7 @@ img {
 
 .responsive-images {
   padding-top: 1em;
+  padding-bottom: 2em;
   overflow: hidden;
   position: relative;
   background-position: center;

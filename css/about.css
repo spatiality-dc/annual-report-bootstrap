@@ -612,6 +612,7 @@ section {
 
 .responsive-images {
   padding-top: 2em;
+  padding-bottom: 2em;
   overflow: hidden;
   position: relative;
   background-position: center;
