@@ -716,8 +716,6 @@ section {
 .btn-menu,
 .btn-download {
   position: sticky;
-  top: 0;
-  right: 0;
   display: inline-block;
   padding: 0.5rem 1.5rem;
 }
@@ -989,6 +987,14 @@ section {
     display: inline-block;
     margin-left: 1px;
     padding: 0.5rem 1rem;
+  }
+
+  .btn-menu {
+    margin: 2em 2em 0 0;
+  }
+
+  .btn-download {
+    margin: 2em 2em 0 -2em;
   }
 }
 
