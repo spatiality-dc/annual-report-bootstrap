@@ -103,7 +103,7 @@ img {
   width: 0;
   position: fixed;
   z-index: 1;
-  top: 11em;
+  top: 0;
   right: 0;
   background-color: #111;
   opacity: 98%;
