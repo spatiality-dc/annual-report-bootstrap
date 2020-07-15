@@ -107,7 +107,7 @@ img {
   right: 0;
   background-color: #111;
   opacity: 98%;
-  overflow: hidden;
+  overflow-y: hidden;
   transition: 0.5s;
   padding-top: 1.25rem;
 }
