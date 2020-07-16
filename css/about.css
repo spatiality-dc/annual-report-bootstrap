@@ -425,7 +425,7 @@ img {
 
 .form-row {
   text-align: left;
-  margin-left: 0.625rem;
+  /* margin-left: 0.625rem; */
 }
 
 .msdi-form {
