@@ -186,7 +186,7 @@ img {
   /* Roboto Medium */
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.2em;
   color: #fc6228;
   text-transform: uppercase;
@@ -494,7 +494,7 @@ h1 {
   line-height: 1.2em;
   color: #fff;
   margin-top: 15%;
-  text-align: left;
+  text-align: center;
 }
 
 h2 {
@@ -505,21 +505,21 @@ h2 {
   line-height: 1.4em;
   color: #0a0a0a;
   text-align: left;
+  margin-right: 50px;
 }
 
 h3 {
   /* Roboto Medium */
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.4em;
   color: #0a0a0a;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 h3:first-of-type {
-  line-height: 0em;
+  line-height: 1.3rem;
 }
 h4 {
   /* Roboto Medium */
@@ -621,6 +621,7 @@ li:first-of-type {
     /* Roboto Light */
     font-size: 1.125rem;
     line-height: 1em;
+    text-align: center;
   }
   .stats {
     /* Roboto Black */
@@ -651,6 +652,7 @@ li:first-of-type {
 
   .cta-button {
     margin-bottom: 1em;
+    margin-top: 0em;
     position: relative;
     left: 25%;
     width: 50%;
